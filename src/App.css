@@ -1,0 +1,131 @@
+body{
+  background: black;
+}
+.App--container{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.register--container{
+  background:rgb(30, 5, 99);
+  color: rgb(0, 255, 213);
+  padding:  10px 20px;
+  border: 3px solid #333;
+  width: 600px;
+  height: max-content;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.register--title{
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(0, 255, 213);
+
+}
+ 
+.register--button{
+  padding: 2px 5px 2px 5px;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 1px rgb(0, 255, 213);
+}
+table{
+  background: blanchedalmond;
+}
+.register--input{display: block;
+padding: 7px 0;
+margin: 10px auto;}
+.register-input{
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px rgb(0, 255, 213);
+  height: 50px;
+}
+
+#myInput {
+ 
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 580px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  float: left;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 640px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+input,select :focus{
+  border: none;
+  
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 60%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   margin-left: 270px;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#btn_rem{
+  display: none;
+}
+#frm{
+  display: none;
+}
+#btn_add{
+  border: none;
+}
